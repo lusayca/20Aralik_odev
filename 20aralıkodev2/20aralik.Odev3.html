@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="numberInput1"></label>
+    <input type="number" id="numberInput1" />
+
+    <label for="numberInput2"></label>
+    <input type="number2" id="numberInput2" />
+
+    <button onclick="toplama()">Toplama</button>
+    <button onclick="cikarma()">Çıkarma</button>
+    <button onclick="carpma()">Çarpma</button>
+    <button onclick="bolum()">Bölme</button>
+    <ul></ul>
+
+    <p id="answer"></p>
+    <script>
+      function multiplyNumbers() {
+        var number1 = document.getElementById("numberInput1").value;
+        var number2 = document.getElementById("numberInput2").value;
+        var answer = numberInput1 * numberInput2;
+      }
+      function addNumbers() {
+        var number1 = document.getElementById("numberInput1").value;
+        var number2 = document.getElementById("numberInput2").value;
+        var answer = numberInput1 + numberInput2;
+      }
+      function subtractNumbers() {
+        var number1 = document.getElementById("numberInput1").value;
+        var number2 = document.getElementById("numberInput2").value;
+        var answer = numberInput1 - numberInput2;
+      }
+      function divideNumbers() {
+        var number1 = document.getElementById("numberInput1").value;
+        var number2 = document.getElementById("numberInput2").value;
+        var answer = numberInput1 / numberInput2;
+      }
+    </script>
+  </body>
+</html>
